@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hello World test!!</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+    <div class="p-2 my-2">
+        <h2>タイマー</h2>
+
+        <label><input id="timer_hour"   type="number" name="hour"   min="0" max="99" value="0">時間</label>
+        <label><input id="timer_minute" type="number" name="minute" min="0" max="59" value="0">分</label>
+        <label><input id="timer_second" type="number" name="second" min="0" max="59" value="0">秒</label>
+        <input id="timer_start" type="button" value="スタート">
+        <input id="timer_pause" type="button" value="一時停止">
+        <input id="timer_stop"  type="button" value="ストップ">
+    
+        <div id="remain">00時間00分00秒</div>
+    
+    </div>
+
+    <div class="p-2 my-2">
+        <h2>ストップウォッチ</h2>
+
+        <input id="watch_start" type="button" value="スタート">
+        <input id="watch_pause" type="button" value="一時停止">
+        <input id="watch_rap"   type="button" value="ラップ">
+        <input id="watch_stop"  type="button" value="ストップ">
+
+        <div id="progress"></div>
+
+        <div id="rap_area"></div>
+    
+    </div>
+
+
+
+
+</body>
+</html>
+
